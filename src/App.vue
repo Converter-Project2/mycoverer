@@ -14,7 +14,7 @@
             <router-link to="/loginPage" class="nav-link">Login</router-link>
           </li>
           <li class="nav-item">
-            <router-link to="/singUpPage" class="nav-link"><span>Sign up </span></router-link>
+            <router-link to="/singUpPage" class="nav-link">Sign up</router-link>
           </li>
           
         </ul>
@@ -79,23 +79,37 @@ nav {
   font-size: 20px;
   width: 100%;
   height: 90px;
+  display: flex;
+
 }
 
 nav a {
   font-weight: bold;
   color: white;
+  text-decoration: none;
+
  
 }
 .nav-link{
   color: white;
 }
 .nav-link:hover{
+  
   color: white;
-  color:rgb(41, 139, 219); 
+  color: rgb(41, 139, 219);
   border: 1px solid rgb(41, 139, 219);
+  border-radius: 30px;
+  letter-spacing: 1px;
+  transition: .4s;
+  transform: scale(0.5s);
+
 }
 .navbar-brand:hover{
   color: white;
+  letter-spacing: 1px;
+  cursor: pointer;
+
+
 
 }
 
