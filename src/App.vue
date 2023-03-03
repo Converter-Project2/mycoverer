@@ -14,7 +14,7 @@
             <router-link to="/loginPage" class="nav-link">Login</router-link>
           </li>
           <li class="nav-item">
-            <router-link to="/singUpPage" class="nav-link"><span>Sign up </span></router-link>
+            <router-link to="/singUpPage" class="nav-link">Sign up</router-link>
           </li>
           
         </ul>
@@ -64,6 +64,130 @@ export default {
 
 <style>
   
+<<<<<<< HEAD
+=======
+  font-size: 20px;
+  width: 100%;
+  height: 90px;
+  display: flex;
+
+}
+
+nav a {
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+
+ 
+}
+.nav-link{
+  color: white;
+}
+.nav-link:hover{
+  
+  color: white;
+  color: rgb(41, 139, 219);
+  border: 1px solid rgb(41, 139, 219);
+  border-radius: 30px;
+  letter-spacing: 1px;
+  transition: .4s;
+  transform: scale(0.5s);
+
+}
+.navbar-brand:hover{
+  color: white;
+  letter-spacing: 1px;
+  cursor: pointer;
+
+
+
+}
+
+h1{
+  margin-top: 160px;
+  font-size: 50px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-shadow: 2px 2px black;
+}
+h2{
+  font-size: 22px;
+  font-weight: bold;
+  color:rgb(41, 139, 219);
+  
+}
+#one{
+  font-size: 20px;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+}
+.sa{
+  width: 250px;
+  margin: auto;
+  margin-top: 40px;
+  border: 2px solid rgb(41, 139, 219);
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  background-color:rgb(41, 139, 219);
+  }
+  option{
+    background-color: white;
+  }
+  .convert{
+ 
+    width: 150px;
+    height: 50px;
+    margin: auto;
+    text-align: center;
+    margin-top: 50px;
+    border: 4px solid rgb(41, 139, 219);
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: none;
+  }
+a{
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+a:hover{
+  color: black;
+  
+}
+
+h3{
+  margin-top: 50px;
+  font-size: 20px;
+}
+.main{
+  display: flex;
+            flex-direction: row;
+            padding: 5px;
+            width: 100%;
+            margin-top: 300px;
+        
+           
+}
+.main div{
+ 
+ margin-right: 120px;
+  width: 50%;
+  padding: 20px;
+  
+}
+.main :hover{
+ 
+  border: solid 2px rgb(41, 139, 219);
+
+}
+.main div :hover{
+  border: none;
+}
+.animate__animated.animate__flip {
+  --animate-duration: 2s;
+}
+>>>>>>> d0e8c4728d202c39041561d78099e9308e747789
 fieldset {
   display: inline;
   position: center;
