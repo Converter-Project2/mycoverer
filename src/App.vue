@@ -63,15 +63,8 @@ export default {
 
 
 <style>
-  
-<<<<<<< HEAD
-=======
-  font-size: 20px;
-  width: 100%;
-  height: 90px;
-  display: flex;
 
-}
+
 
 nav a {
   font-weight: bold;
@@ -187,7 +180,6 @@ h3{
 .animate__animated.animate__flip {
   --animate-duration: 2s;
 }
->>>>>>> d0e8c4728d202c39041561d78099e9308e747789
 fieldset {
   display: inline;
   position: center;
