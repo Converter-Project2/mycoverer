@@ -20,7 +20,10 @@
         </ul>
       </div>
   </nav>
-  <router-view />
+  
+<router-view />
+
+ 
 
     <footer>
     <div class="main animate__animated animate__zoomIn" >
@@ -56,6 +59,7 @@
 
 <script>
 export default {
+  show:true,
   name: "App",
   components: {},
 };
@@ -187,10 +191,10 @@ fieldset {
   padding: 60px 0px;
   font-size: 5px;
   font-weight: bold;
-  width: 70%;
+  width: 60%;
   box-shadow: 7px 15px 30px rgb(41,139,219);
   border-radius: 35px;
-  height: 50%;
+  height: 20%;
 
 }
 
@@ -247,5 +251,15 @@ button.n {
 button.n:hover {
   width:50%
 }
+button:hover::before {
+  width: 100%;
+}
+button:hover{
+  background: var(--black);
+    transition: .2s ease-out;
+    
+
+}
+
 
 </style>

@@ -3,7 +3,7 @@
   <p id="one" class="animate__animated animate__backInDown">convert all things in 2 clics ! </p>
   
   <div >
-    <img src="pic2.jpeg" width="35%" id="pic2"> 
+    <img src="pic2.jpeg" width="35%" class="pic2"> 
   </div>
   <section class=" container animate__animated animate__zoomIn ">
     <select  class="s form-select form-select-lg mb-10">
@@ -158,8 +158,8 @@ h3{
   margin: auto;
   
 }
-#pic2:hover{
-transform: scale(1.1) rotate(2deg);
+.pic2:hover{
+transform: scale(1.1) rotate(1deg);
 }
 
 </style>

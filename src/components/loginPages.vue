@@ -1,21 +1,15 @@
 <template>
 
     <br>
-    <form action="login.php" method="get"  style="  margin:auto;
-">
+    <form   class="animate__animated animate__backInDown" action="/" method="get" style="wight:20%;height:10%">
     <fieldset>
       
 
         
-        <img src="Tablet login-pana.png" style="
-        size: 3%;
-        width: 30%;
-        display: block;
-        margin:auto;
-        padding: 10px;">
-    <ul style="  margin:auto;  ">            <li class="fa-solid fa-user" style="color: rgb(41,139,219);font-size:32px;"></li>
+        <img class="pic2" src="Tablet login-pana.png" style="size: 3%;width: 25%;display: block;margin:auto;padding: 10px;">
+    <ul style="  margin:auto;  ">            <li class="fa-solid fa-user" style="color: rgb(41,139,219);font-size:20px;"></li>
             <input placeholder="Name" type="text" ><br>
-    <li class="fa-solid fa-key" style="color: rgb(41,139,219);font-size:32px;"></li>
+    <li class="fa-solid fa-key" style="color: rgb(41,139,219);font-size:20px;"></li>
   
   <input value="Password" type="password">
 </ul><br>
