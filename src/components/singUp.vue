@@ -1,7 +1,7 @@
 <template>
 
     <br>
-    <form  class="animate__animated animate__backInDown" action="/" method="get" style="wight:20%;height:15% ;" >
+    <form  class="animate__animated animate__zoomIn" action="/" method="get" style="wight:20%;height:15% ;" >
     <fieldset>
       
         <ul style="  margin:auto;  ">
