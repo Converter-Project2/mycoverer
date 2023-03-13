@@ -6,12 +6,12 @@
       
         <ul style="  margin:auto;  ">
           <img class="pic2" src=" login-pana.png" style="size: 5%;width: 30%;display: block;margin:auto;padding: 10px;">
-            <li class="fa-solid fa-user" style="color: rgb(41,139,219);font-size:20px;"></li>
+            <li class="fa-solid fa-user" style="color: rgb(41,139,219);font-size:17px;"></li>
             <input placeholder="Name" type="text"  v-model="Data.name"><br>
-            <li class="fa-solid fa-envelope" style="color: rgb(41,139,219);font-size:20px; ">
+            <li class="fa-solid fa-envelope" style="color: rgb(41,139,219);font-size:17px; ">
             </li><input placeholder="Email" type="email" v-model="Data.email"><br>
-            <li class="fa-solid fa-phone" style="color: rgb(41,139,219);font-size:20px;"></li><input  placeholder=090000000  type="number" v-model="$store.state.singUpData.number"><br>
-    <li class="fa-solid fa-key" style="color: rgb(41,139,219);font-size:20px;"></li>
+            <li class="fa-solid fa-phone" style="color: rgb(41,139,219);font-size:17px;"></li><input  placeholder=090000000  type="number" v-model="$store.state.singUpData.number"><br>
+    <li class="fa-solid fa-key" style="color: rgb(41,139,219);font-size:17px;"></li>
     <input  type="password" v-model="Data.password" placeholder=".........."  ></ul>
     <button class="s"  @click="singUpFunction">sing Up</button>
     

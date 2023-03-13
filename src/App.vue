@@ -188,7 +188,7 @@ fieldset {
   display: inline;
   position: center;
   margin:auto;
-  padding: 60px 0px;
+  padding: 7px 0px;
   font-size: 5px;
   font-weight: bold;
   width: 60%;
@@ -207,10 +207,10 @@ fieldset {
 
 input {
   display: inline;
-  width: 30%;
+  width: 40%;
   position: center;
   color: grey;
-  margin: 15px 0;
+  margin: 10px 0;
   box-shadow: 2px 5px 10px rgb(41, 139, 219);
   margin-left: 1%;
 }
@@ -230,8 +230,12 @@ hr {
 
 button.s {
   transition: transform 0.3s;
-}
+  margin:auto;
+  margin-left: 5%;
+  margin-top: 1%;
 
+}
+ss
 .g {
   margin-left: 0;
   width: 23%;
