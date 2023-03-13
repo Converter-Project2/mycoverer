@@ -11,9 +11,9 @@
             <input placeholder="Name" type="text" ><br>
     <li class="fa-solid fa-key" style="color: rgb(41,139,219);font-size:20px;"></li>
   
-  <input value="Password" type="password">
-</ul><br>
-    <button class="s">LOGIN</button>
+  <input placeholder="Password" type="password">
+</ul>
+    <button class="s">LOGIN</button> <br><br>
     
     </fieldset>
     </form>   
